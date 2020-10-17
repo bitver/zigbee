@@ -1,7 +1,7 @@
 package functions
 
 import (
-	"github.com/dyrkin/zigbee-steward/coordinator"
+	"github.com/bitver/zigbee-steward/coordinator"
 	"github.com/dyrkin/znp-go"
 )
 

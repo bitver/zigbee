@@ -1,4 +1,6 @@
-module github.com/dyrkin/zigbee-steward
+module github.com/bitver/zigbee-steward
+
+go 1.15
 
 require (
 	github.com/davecgh/go-spew v1.1.1

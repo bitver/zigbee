@@ -1,15 +1,15 @@
 package steward
 
 import (
+	"github.com/bitver/zigbee-steward/configuration"
+	"github.com/bitver/zigbee-steward/coordinator"
+	"github.com/bitver/zigbee-steward/db"
+	"github.com/bitver/zigbee-steward/functions"
+	"github.com/bitver/zigbee-steward/logger"
+	"github.com/bitver/zigbee-steward/model"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/dyrkin/zcl-go"
 	"github.com/dyrkin/zcl-go/cluster"
-	"github.com/dyrkin/zigbee-steward/configuration"
-	"github.com/dyrkin/zigbee-steward/coordinator"
-	"github.com/dyrkin/zigbee-steward/db"
-	"github.com/dyrkin/zigbee-steward/functions"
-	"github.com/dyrkin/zigbee-steward/logger"
-	"github.com/dyrkin/zigbee-steward/model"
 	"github.com/dyrkin/znp-go"
 )
 

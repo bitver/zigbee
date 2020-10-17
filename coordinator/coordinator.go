@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/bitver/zigbee-steward/configuration"
+	"github.com/bitver/zigbee-steward/logger"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/dyrkin/unp-go"
-	"github.com/dyrkin/zigbee-steward/configuration"
-	"github.com/dyrkin/zigbee-steward/logger"
 	"github.com/dyrkin/znp-go"
 	"go.bug.st/serial.v1"
 )

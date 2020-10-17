@@ -1,9 +1,9 @@
 package functions
 
 import (
+	"github.com/bitver/zigbee-steward/coordinator"
+	"github.com/bitver/zigbee-steward/logger"
 	"github.com/dyrkin/zcl-go"
-	"github.com/dyrkin/zigbee-steward/coordinator"
-	"github.com/dyrkin/zigbee-steward/logger"
 )
 
 var log = logger.MustGetLogger("functions")

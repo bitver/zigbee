@@ -1,6 +1,6 @@
 package steward
 
-import "github.com/dyrkin/zigbee-steward/model"
+import "github.com/bitver/zigbee-steward/model"
 
 type Channels struct {
 	onDeviceRegistered      chan *model.Device
