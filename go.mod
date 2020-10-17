@@ -16,3 +16,5 @@ require (
 	go.bug.st/serial.v1 v0.0.0-20191202182710-24a6610f0541
 	golang.org/x/sys v0.0.0-20201017003518-b09fb700fbb7 // indirect
 )
+
+replace github.com/dyrkin/zigbee-steward => /github.com/bitver/zigbee-steward
