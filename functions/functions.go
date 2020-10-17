@@ -1,8 +1,8 @@
 package functions
 
 import (
-	"github.com/bitver/zigbee-steward/coordinator"
-	"github.com/bitver/zigbee-steward/logger"
+	"github.com/bitver/zigbee/coordinator"
+	"github.com/bitver/zigbee/logger"
 	"github.com/dyrkin/zcl-go"
 )
 

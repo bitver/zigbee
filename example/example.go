@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/bitver/zigbee-steward"
-	"github.com/bitver/zigbee-steward/configuration"
-	"github.com/bitver/zigbee-steward/model"
+	"github.com/bitver/zigbee"
+	"github.com/bitver/zigbee/configuration"
+	"github.com/bitver/zigbee/model"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/dyrkin/zcl-go/cluster"
 	"sync"
