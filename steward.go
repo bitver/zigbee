@@ -211,6 +211,7 @@ func (s *Steward) processIncomingMessage(incomingMessage *znp.AfIncomingMessage)
 		}
 	} else {
 		log.Errorf("Unsupported incoming message:\n%s\n", func() string { return spew.Sdump(incomingMessage) })
+		log.Error(err)
 	}
 }
 
